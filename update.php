@@ -21,11 +21,13 @@ $region = DB::selectOne($query, [$id], 'Regions');
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<h1>Region form update</h1>
+
     <br>
     <form action="addFormProcess.php" method="post">
+        <h1>Region form update</h1>
         <div class="form-group">
             <label for="name">Name</label><br>
             <input type="text"

@@ -1,0 +1,40 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: rgb(89, 84, 173);
+  background: radial-gradient(
+    circle,
+    rgba(89, 84, 173, 1) 0%,
+    rgba(46, 69, 134, 1) 35%,
+    rgba(2, 2, 23, 1) 100%
+  );
+  font-family: sans-serif;
+}
+
+.newRegion {
+  display: flex;
+  justify-content: center;
+}
+
+.newRegion a {
+  background-color: aliceblue;
+  text-decoration: none;
+  width: 13em;
+  height: 2em;
+  text-align: center;
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.region-list {
+  background-color: aliceblue;
+  max-width: 15em;
+  min-height: 10em;
+  border-radius: 7px;
+  padding: 14px;
+}
